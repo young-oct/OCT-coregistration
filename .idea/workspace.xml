@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="327e515e-daa4-48a4-af81-d42c9e9ee73b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/DICOM_append.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/Mk1toMk2Converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Mk1toMk2Converter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/dicom_updator.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/dicom_updator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/oct2dicom.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/oct2dicom.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,6 +150,7 @@
       <workItem from="1647562876171" duration="442000" />
       <workItem from="1647616350713" duration="636000" />
       <workItem from="1647617083286" duration="424000" />
+      <workItem from="1647865272943" duration="334000" />
     </task>
     <servers />
   </component>

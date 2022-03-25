@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="327e515e-daa4-48a4-af81-d42c9e9ee73b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/scan_conversion_validation(Bmode).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/tools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/tools/auxiliary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/tools/dicom_converter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/tools/geocrt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/tools/preprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/DICOM_append.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/DICOM_append.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/Mk1toMk2Converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Mk1toMk2Converter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/OssiviewBufferReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/tools/OssiviewBufferReader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/OssiviewDataHeader.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/tools/OssiviewDataHeader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/npy2dicom.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/oct2dicom(ngc).py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/oct2dicom(ngc).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/oct2dicom.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/oct2dicom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/scan_conversion_validation(Bmode).py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/scan_conversion_validation(Bmode).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,6 +191,9 @@
       <workItem from="1648209016772" duration="846000" />
       <workItem from="1648209868077" duration="1432000" />
       <workItem from="1648211316676" duration="4685000" />
+      <workItem from="1648218943460" duration="2340000" />
+      <workItem from="1648221293419" duration="810000" />
+      <workItem from="1648222190817" duration="621000" />
     </task>
     <servers />
   </component>

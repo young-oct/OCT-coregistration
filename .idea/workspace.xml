@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="327e515e-daa4-48a4-af81-d42c9e9ee73b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/npy2dicom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/oct2dicom(ngc).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/scan_conversion_validation(Bmode).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tools/auxiliary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tools/dicom_converter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tools/geocrt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tools/preprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DICOM_append.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/DICOM_append.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Mk1toMk2Converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Mk1toMk2Converter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/OssiviewBufferReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/tools/OssiviewBufferReader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/OssiviewDataHeader.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/tools/OssiviewDataHeader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/npy2dicom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/oct2dicom(ngc).py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/oct2dicom(ngc).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/oct2dicom.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/oct2dicom.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +47,13 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.npy2dicom">
-    <configuration name="Mk1toMk2Converter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts/tools" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.oct2dicom">
+    <configuration name="OssiviewBufferReader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OCT-coregistration" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -45,12 +61,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/tools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/Mk1toMk2Converter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/tools/OssiviewBufferReader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -59,7 +75,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dicom_updator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="auxiliary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OCT-coregistration" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,31 +83,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/tools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/dicom_updator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="npy2dicom" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="OCT-coregistration" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/npy2dicom.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/tools/auxiliary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,9 +101,6 @@
       <module name="OCT-coregistration" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -122,7 +116,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="oct2dicom(ngc)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OCT-coregistration" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/tools/preprocessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scan_conversion_validation(Bmode)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OCT-coregistration" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,7 +151,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/oct2dicom(ngc).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/scan_conversion_validation(Bmode).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.npy2dicom" />
-        <item itemvalue="Python.oct2dicom(ngc)" />
         <item itemvalue="Python.oct2dicom" />
-        <item itemvalue="Python.Mk1toMk2Converter" />
-        <item itemvalue="Python.dicom_updator" />
+        <item itemvalue="Python.scan_conversion_validation(Bmode)" />
+        <item itemvalue="Python.auxiliary" />
+        <item itemvalue="Python.OssiviewBufferReader" />
+        <item itemvalue="Python.preprocessing" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +193,16 @@
       <workItem from="1647956927607" duration="3765000" />
       <workItem from="1647969011068" duration="2988000" />
       <workItem from="1647994504682" duration="1649000" />
+      <workItem from="1648035256302" duration="141000" />
+      <workItem from="1648041366506" duration="5094000" />
+      <workItem from="1648049397035" duration="1139000" />
+      <workItem from="1648050992821" duration="13938000" />
+      <workItem from="1648132715153" duration="11575000" />
+      <workItem from="1648168465922" duration="358000" />
+      <workItem from="1648207041484" duration="1963000" />
+      <workItem from="1648209016772" duration="846000" />
+      <workItem from="1648209868077" duration="1432000" />
+      <workItem from="1648211316676" duration="4685000" />
     </task>
     <servers />
   </component>
@@ -193,5 +219,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/OCT_coregistration$oct2dicom.coverage" NAME="oct2dicom Coverage Results" MODIFIED="1648212073459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/OCT_coregistration$preprocessing.coverage" NAME="preprocessing Coverage Results" MODIFIED="1648207177633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts/tools" />
+    <SUITE FILE_PATH="coverage/OCT_coregistration$scan_bmode.coverage" NAME="scan_bmode Coverage Results" MODIFIED="1648209190888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/OCT_coregistration$auxiliary.coverage" NAME="auxiliary Coverage Results" MODIFIED="1648209347251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts/tools" />
   </component>
 </project>

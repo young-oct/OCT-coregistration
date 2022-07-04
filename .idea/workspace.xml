@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="327e515e-daa4-48a4-af81-d42c9e9ee73b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/scripts/oct2dicom.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/oct2dicom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/tools/dicom_converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/tools/dicom_converter.py" afterDir="false" />
+    <list default="true" id="c83cf22f-b587-4951-a2ad-1b651a07aec4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/scripts/oct2dicom(corrected).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,68 +17,20 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="25bjv8DEiMFnAC8y4zJdMtbSip2" />
+  <component name="ProjectId" id="2BIhTYs8UiNSQBLTvjS2meomSRf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/scripts/tools" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.oct2dicom">
-    <configuration name="OssiviewBufferReader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="OCT-coregistration" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/tools" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/tools/OssiviewBufferReader.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="auxiliary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="OCT-coregistration" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/tools" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/tools/auxiliary.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="oct2dicom" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="oct2dicom(corrected)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OCT-coregistration" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,51 +40,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/oct2dicom.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="OCT-coregistration" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/tools" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/tools/preprocessing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="scan_conversion_validation(Bmode)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="OCT-coregistration" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/scan_conversion_validation(Bmode).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/oct2dicom(corrected).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,71 +51,23 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.oct2dicom" />
-        <item itemvalue="Python.scan_conversion_validation(Bmode)" />
-        <item itemvalue="Python.auxiliary" />
-        <item itemvalue="Python.OssiviewBufferReader" />
-        <item itemvalue="Python.preprocessing" />
+        <item itemvalue="Python.oct2dicom(corrected)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="327e515e-daa4-48a4-af81-d42c9e9ee73b" name="Changes" comment="" />
-      <created>1645802907992</created>
+      <changelist id="c83cf22f-b587-4951-a2ad-1b651a07aec4" name="Changes" comment="" />
+      <created>1656599514282</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1645802907992</updated>
-      <workItem from="1645802910017" duration="2922000" />
-      <workItem from="1647440911243" duration="1884000" />
-      <workItem from="1647445010314" duration="897000" />
-      <workItem from="1647469700505" duration="1882000" />
-      <workItem from="1647472456638" duration="1273000" />
-      <workItem from="1647518913208" duration="2805000" />
-      <workItem from="1647522141038" duration="7000" />
-      <workItem from="1647562876171" duration="442000" />
-      <workItem from="1647616350713" duration="636000" />
-      <workItem from="1647617083286" duration="424000" />
-      <workItem from="1647865272943" duration="334000" />
-      <workItem from="1647865621392" duration="837000" />
-      <workItem from="1647956927607" duration="3765000" />
-      <workItem from="1647969011068" duration="2988000" />
-      <workItem from="1647994504682" duration="1649000" />
-      <workItem from="1648035256302" duration="141000" />
-      <workItem from="1648041366506" duration="5094000" />
-      <workItem from="1648049397035" duration="1139000" />
-      <workItem from="1648050992821" duration="13938000" />
-      <workItem from="1648132715153" duration="11575000" />
-      <workItem from="1648168465922" duration="358000" />
-      <workItem from="1648207041484" duration="1963000" />
-      <workItem from="1648209016772" duration="846000" />
-      <workItem from="1648209868077" duration="1432000" />
-      <workItem from="1648211316676" duration="4685000" />
-      <workItem from="1648218943460" duration="2340000" />
-      <workItem from="1648221293419" duration="810000" />
-      <workItem from="1648222190817" duration="838000" />
+      <updated>1656599514282</updated>
+      <workItem from="1656599515415" duration="2290000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/OCT_coregistration$oct2dicom.coverage" NAME="oct2dicom Coverage Results" MODIFIED="1648212073459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/OCT_coregistration$preprocessing.coverage" NAME="preprocessing Coverage Results" MODIFIED="1648207177633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts/tools" />
-    <SUITE FILE_PATH="coverage/OCT_coregistration$scan_bmode.coverage" NAME="scan_bmode Coverage Results" MODIFIED="1648209190888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/OCT_coregistration$auxiliary.coverage" NAME="auxiliary Coverage Results" MODIFIED="1648209347251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts/tools" />
   </component>
 </project>
